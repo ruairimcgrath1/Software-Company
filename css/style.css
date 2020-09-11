@@ -1,0 +1,382 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px ;
+    line-height:1.5;
+    padding:0;
+    margin:0;
+    height:500px;
+    background:#f4f4f4 ;
+}
+/*Global*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+
+/*header*/
+header{
+    background:#35484a;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+header li{
+    float:left;
+    display: inline;
+    padding:0 20px 0 20px;
+}
+header #logo{
+    float:left;
+}
+header #logo h1{
+    margin:0;
+}
+
+header nav{
+    float: right;
+    margin-top: 20px;
+}
+header .highlight,header .current a{
+    color:#e8491d;
+    font-weight:bold;
+}
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+}
+.checkbtn{
+    font-size:30px;
+    color:#ffffff;
+    float:right;
+    line-height:80px;
+    margin-right:40px;
+    cursor: pointer;
+    display:none;
+}
+#check{
+    display:none;
+}
+ 
+/* Welcome Section*/
+#welcome{
+    padding: 30px;
+    text-align:  center;
+    background:#E5E5E5;
+
+}
+
+/* boxes Section */
+#boxes{
+    margin-top:50px;
+    background:#ffffff;
+
+}
+#boxes .box{
+    float:left;
+     width:30%;
+    text-align: center;
+    padding:10px;
+}
+#boxes .box img{
+    width:90px;
+    height:90px;
+}
+
+
+/*  offices Section*/
+#offices {
+    margin-top:40px;
+    background: #E5E5E5;
+
+}
+
+#offices .office{
+    
+    float:left;
+    width:45%;
+    text-align: center;
+    padding:20px;
+} 
+
+/*About Us Page */
+#aboutus{
+  text-align: center;
+  padding:20px;
+  background:#E5E5E5;
+}
+#whoweare{
+    text-align: center;
+    padding:20px;
+  
+}
+#whatwedo{
+    text-align: center;
+    padding:20px;
+    background:#E5E5E5;
+}
+#careers{
+    text-align: center;
+    padding:20px;
+    background:#E5E5E5;
+}
+#roles {
+    text-align: center;
+    padding:20px;
+}
+
+#sendmessage{
+    padding:15px;
+    color:#ffffff;
+    background:#e8491d;
+    text-align: center;
+}
+
+/*Hero Image*/
+.hero-image{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0, 0.5)),url("../img/banner.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 80%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+.hero-image .hero-text{
+    color: #ffffff;
+    text-align: center;
+}
+.hero-text h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+.hero-text p{
+    font-size:20px;
+}
+
+.button{
+    height:38px;
+    background:#35484a;
+    color: #ffffff;
+    text-decoration: none;
+    font-size:16px;
+    padding: 4px;
+    padding-left:20px;
+    padding-right:20px;
+    border:0;
+    letter-spacing:2px;
+    text-align: center;
+    cursor:pointer;
+  
+}
+/*About Image*/
+.about-image{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0, 0.5)),url("../img/office_meeting.jpg") ;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 80%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+#contact-section{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.9)),url("../img/office_meeting.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-bottom: 20px;
+}
+#contact-section .container h2{
+    text-align:center;
+    text-decoration: underline;
+    color: #ffffff;
+    text-underline-position: under;
+    letter-spacing:2px;
+}
+#contact-section .container p{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+    text-decoration: underline;
+    color: #ffffff;
+    padding-bottom: 3%;
+    letter-spacing:3px;
+} 
+
+.contact-form i.fa{
+    font-size:22px;
+    padding:3%;
+    background-color: none;
+    margin:2%;
+    cursor:pointer;
+    border: 2px solid #ffffff;
+    border-radius: 80%;
+    color: #ffffff;
+
+} 
+.contact-form {
+    display:grid;
+    grid-template-columns: auto auto;
+
+}
+.form-info{
+    font-size:16px;
+    font-style:italic;
+    color:#ffffff;
+    letter-spacing: 2px;
+}
+input{
+    padding:10px;
+    margin:10px;
+    width: 70%;
+    background-color:#808080;
+    color:#ffffff;
+    border:none;
+    outline:none;
+}
+input::placeholder{
+    color:#ffffff;
+}
+
+textarea{
+    padding:10px;
+    margin:10px;
+    width: 70%;
+    background-color:#808080;
+    color:#ffffff;
+    border:none;
+    outline:none;
+}
+textarea::placeholder{
+    color:#ffffff;
+}
+.submit{
+    width:40%;
+    background:none;
+    padding:4px;
+    outline:none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing:2px;
+    height:33px;
+    text-align: center;
+    cursor:pointer;
+    margin-left: 3%;
+    border:2px solid #ffffff;
+    color:#ffffff;
+}
+.submit:hover{
+    border:1px solid #ffffff;
+    color:#ffffff;
+}
+
+/*footer*/
+footer .box{
+    float:left;
+    font-size:16px;
+    width:30%;
+    
+    padding:15px;
+}
+footer .box i.fa,i.far{
+    font-size:22px;
+    padding:3%;
+    background-color: none;
+    margin:2%;
+    cursor:pointer;
+    border: 2px solid #ffffff;
+    border-radius: 80%;
+    color: #ffffff;
+}
+footer{
+    padding:20px;
+    background:#35484a;
+    
+    color: #ffffff;
+}
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+@media(max-width: 768px){
+    header #logo,
+    header nav,
+    header nav li,
+    #boxes .box,
+    #offices .office,
+    
+    #contact-section .contact-form{
+        display:block;
+        float:none;
+        text-align: center;
+        width:100%;
+    }
+    header{
+        padding-bottom:20px;
+    }
+    hero-image h1{
+        margin-top: 40px;
+    }
+    #contact-section .submit{
+        width:60%;
+    }
+}
+@media(max-width: 850px){
+    .checkbtn{
+        display:block;
+    }
+    ul{
+        position:fixed;
+        background:#2c3e50;
+        text-align: center;
+        width:100%;
+        height:100vh;
+        top:80px;
+        left:-100%;
+        text-align:center;
+        transition:all .5s;
+        display:block;
+    }
+
+    nav ul li{
+        display:block;
+        margin: 50px 0;
+        line-height:30px;
+    }
+    nav ul li a{
+        font-size:20px;
+    }
+    a:hover,a.active{
+        background:none;
+        color:#0082e6 ;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    @media(max-width: 1000px){
+      footer .box{
+        display:block;
+        float:none;
+        text-align: center;
+        width:100%;
+      }
+        
+    }
+}
+    
